@@ -17,8 +17,8 @@ public class Main {
 
             double amountInUSDFromEUR = converter.revertUSD(USD);
 
-            System.out.println(USD + "$ = " + amountInEUR + converter.currencySymbol());
-            System.out.println("100.0" + converter.currencySymbol() + " = " + amountInUSDFromEUR + "$");
+            System.out.println(USD + "$ USD = " + amountInEUR + converter.currencySymbol());
+            System.out.println("100.0" + converter.currencySymbol() + " = " + amountInUSDFromEUR + "$ USD");
         }
     }
 }
