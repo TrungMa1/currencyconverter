@@ -6,7 +6,7 @@ public class ConvertUSDToSEK implements CurrencyConverter {
 
     private static final double USD_TO_SEK = 10.97;
     private static final double SEK_TO_USD = 0.091;
-    private static final String symbol = "Kr SEK";
+    private static final String symbol = "kr SEK";
 
     @Override
     public double convertUSD(double amount) {
